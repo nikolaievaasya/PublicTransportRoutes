@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\MenuItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\UserPopup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddBusStopView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddDriverView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddRoutePointView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddRouteView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddTransportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\HomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SearchDriverByFullNameView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SearchDriverByPhoneView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SearchDriverView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SearchView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Resources\Icons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\MenuItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\UserPopup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\MainStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddBusStopView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddDriverView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddRoutePointView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddRouteView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddTransportRouteView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddTransportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchBusStopRoutesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchRouteView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchDriverByFullNameView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchTransportByDriverView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchTransportByTransportNumberView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchDriverByPhoneView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchTransportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchDriverView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SearchView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

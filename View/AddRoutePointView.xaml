@@ -1,0 +1,122 @@
+﻿<UserControl x:Class="PublicTransportRoutes.View.AddRoutePointView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PublicTransportRoutes.View"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+
+            <Label 
+                Content="ROUTE" Height="14"
+                Width="300"
+                Style="{StaticResource LabelFirstStyle}"/>
+            
+            <ComboBox
+                ItemsSource="{Binding DataStorageService.RoutesCollection}"
+                SelectedIndex="{Binding RouteComboBoxIndex}"
+                Width="300" Height="30" Margin="10, 0, 10, 10" 
+                Style="{StaticResource ComboBoxFirstStyle}"/>
+
+            <Label 
+                Content="BUS STOP" Height="14"
+                Width="300"
+                Style="{StaticResource LabelFirstStyle}"/>
+            <ComboBox
+                ItemsSource="{Binding DataStorageService.BusStopsCollection}"
+                SelectedIndex="{Binding BusStopComboBoxIndex}"
+                Width="300" Height="30" Margin="10, 0, 10, 10" 
+                Style="{StaticResource ComboBoxFirstStyle}"/>
+
+            <Label 
+                Content="ORDER" Height="14"
+                Width="100"
+                Style="{StaticResource LabelFirstStyle}"/>
+            <Border
+                 Width="100" Height="30" Margin="10,0,10,10">
+
+                <Border
+                    BorderBrush="{StaticResource FirstColor}"
+                    BorderThickness="1"
+                    CornerRadius="5">
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock
+                            Grid.Column="0"
+                            Text="{Binding PointOrder}"
+                            Style="{StaticResource FirstTextStyle}"/>
+
+                        <Grid
+                            Grid.Column="1"
+                            VerticalAlignment="Stretch">
+
+                            <Grid.RowDefinitions>
+
+                                <RowDefinition/>
+                                <RowDefinition/>
+
+                            </Grid.RowDefinitions>
+
+                            <RepeatButton
+                                Grid.Row="0"
+                                Style="{StaticResource ButtonSpinnerUpStyle}"
+                                Command="{Binding SpinnerButtonUpCommand}">
+
+                                <Grid
+                                    Style="{StaticResource GridAllignCenter}">
+
+                                    <Path
+                                        Data="{StaticResource upArrowIcon}"
+                                        Style="{StaticResource PathSpinnerStyle}"/>
+
+                                </Grid>
+
+                            </RepeatButton>
+
+                            <RepeatButton
+                                Grid.Row="1"
+                                Style="{StaticResource ButtonSpinnerDownStyle}"
+                                Command="{Binding SpinnerButtonDownCommand}">
+
+                                <Grid
+                                    Style="{StaticResource GridAllignCenter}">
+
+                                    <Path
+                                        Data="{StaticResource downArrowIcon}"
+                                        Style="{StaticResource PathSpinnerStyle}"/>
+
+                                </Grid>
+
+                            </RepeatButton>
+
+                        </Grid>
+
+                    </Grid>
+                    
+                    
+                </Border>
+
+            </Border>
+
+            <Button 
+                Width="150" Height="30" Margin="10"
+                Content="ADD ROUTE POINT"
+                Command="{Binding AddRoutePointCommand}"
+                Style="{StaticResource ButtonFirstStyle}"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</UserControl>

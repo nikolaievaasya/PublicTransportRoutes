@@ -1,0 +1,127 @@
+﻿<UserControl x:Class="PublicTransportRoutes.View.AddTransportView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PublicTransportRoutes.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+
+            <Label 
+                Content="DRIVER" Height="14"
+                Width="300"
+                Style="{StaticResource LabelFirstStyle}"/>
+            <ComboBox
+                Width="300" Height="30" Margin="10,0,10,10" 
+                ItemsSource="{Binding DataStorageService.DriversCollection}" 
+                SelectedIndex="{Binding IndexDriver}"
+                Style="{StaticResource ComboBoxFirstStyle}"/>
+
+            <Label 
+                Content="TRANSPORT TYPE" Height="14"
+                Width="300"
+                Style="{StaticResource LabelFirstStyle}"/>
+            <ComboBox
+                Width="300" Height="30" Margin="10,0,10,10" 
+                ItemsSource="{Binding DataStorageService.TransportTypeComboBoxItems}" 
+                SelectedValue="{Binding TransportType}"
+                Style="{StaticResource ComboBoxFirstStyle}"/>
+
+
+            <Label 
+                Content="NUMBER OF SEATS" Height="14"
+                Width="150"
+                Style="{StaticResource LabelFirstStyle}"/>
+            <Border
+                 Width="150" Height="30" Margin="10,0,10,10">
+
+                <Border
+                    BorderBrush="{StaticResource FirstColor}"
+                    BorderThickness="1"
+                    CornerRadius="5">
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock
+                            Grid.Column="0"
+                            Text="{Binding NumberOfSeats, UpdateSourceTrigger=PropertyChanged}"
+                            Style="{StaticResource FirstTextStyle}"/>
+
+                        <Grid
+                            Grid.Column="1"
+                            VerticalAlignment="Stretch">
+
+                            <Grid.RowDefinitions>
+
+                                <RowDefinition/>
+                                <RowDefinition/>
+
+                            </Grid.RowDefinitions>
+
+                            <RepeatButton
+                                Grid.Row="0"
+                                Style="{StaticResource ButtonSpinnerUpStyle}"
+                                Command="{Binding SpinnerButtonUpCommand}">
+
+                                <Grid
+                                    Style="{StaticResource GridAllignCenter}">
+
+                                    <Path
+                                        Data="{StaticResource upArrowIcon}"
+                                        Style="{StaticResource PathSpinnerStyle}"/>
+
+                                </Grid>
+
+                            </RepeatButton>
+
+                            <RepeatButton
+                                Grid.Row="1"
+                                Style="{StaticResource ButtonSpinnerDownStyle}"
+                                Command="{Binding SpinnerButtonDownCommand}">
+
+                                <Grid
+                                    Style="{StaticResource GridAllignCenter}">
+
+                                    <Path
+                                        Data="{StaticResource downArrowIcon}"
+                                        Style="{StaticResource PathSpinnerStyle}"/>
+
+                                </Grid>
+
+                            </RepeatButton>
+
+                        </Grid>
+
+                    </Grid>
+
+
+                </Border>
+
+            </Border>
+
+            <Label 
+                Content="TRANSPORT NUMBER" Height="14"
+                Width="150"
+                Style="{StaticResource LabelFirstStyle}"/>
+            <TextBox
+                Width="150" Height="30" Margin="10,0,10,10" 
+                Text="{Binding TransportNumber, UpdateSourceTrigger=PropertyChanged}"
+                Style="{StaticResource TextBoxFirstStyle}"/>
+            
+            <Button 
+                Width="150" Height="30" Margin="10"
+                Content="ADD TRANSPORT"
+                Command="{Binding AddTransportCommand}"
+                Style="{StaticResource ButtonFirstStyle}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

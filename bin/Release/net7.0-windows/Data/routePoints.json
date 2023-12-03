@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "a9d12bb7-9004-41be-a450-03153249c585",
+    "IdRoute": "6fc3873f-5173-42b7-aaeb-d60c20b74ed0",
+    "IdBusStop": "b16b6252-4414-47d2-9e3f-380878960c44",
+    "PointOrder": 1
+  },
+  {
+    "Id": "0ff279eb-5228-4fb6-afb6-d75e742e85f1",
+    "IdRoute": "6fc3873f-5173-42b7-aaeb-d60c20b74ed0",
+    "IdBusStop": "10432050-61aa-4506-ac37-6bb2d0b3255d",
+    "PointOrder": 2
+  },
+  {
+    "Id": "ffd441bf-a8cb-4b18-807e-6a65a5ae19ca",
+    "IdRoute": "6fc3873f-5173-42b7-aaeb-d60c20b74ed0",
+    "IdBusStop": "40d41402-45b2-4f73-8325-2c1a33bace39",
+    "PointOrder": 3
+  },
+  {
+    "Id": "d592cf88-b97e-4ee0-8854-c30d56541abf",
+    "IdRoute": "6fc3873f-5173-42b7-aaeb-d60c20b74ed0",
+    "IdBusStop": "550d0a07-0fa6-44de-8613-adb7d7c6f0ec",
+    "PointOrder": 4
+  }
+]

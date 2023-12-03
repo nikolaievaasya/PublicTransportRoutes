@@ -1,0 +1,100 @@
+﻿<Application x:Class="PublicTransportRoutes.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PublicTransportRoutes"
+             xmlns:view="clr-namespace:PublicTransportRoutes.View"
+             xmlns:viewModel="clr-namespace:PublicTransportRoutes.ViewModel">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--Здесь добавляются словари ресурсов-->
+               
+                <ResourceDictionary Source="Themes/LightTheme.xaml"/>
+
+                <ResourceDictionary Source="Resources/Icons.xaml"/>
+
+                <ResourceDictionary Source="Styles/MainStyle.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--При добавлении новой View нужно добавить DataTemplate-->
+
+            <!--<DataTemplate DataType="{x:Type TypeName=viewModel:ViewModelName}">
+                    <view:ViewName/>
+                </DataTemplate>-->
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddViewModel}">
+                <view:AddView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddDriverViewModel}">
+                <view:AddDriverView/>
+            </DataTemplate>            
+            
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddTransportViewModel}">
+                <view:AddTransportView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddBusStopViewModel}">
+                <view:AddBusStopView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddRouteViewModel}">
+                <view:AddRouteView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddRoutePointViewModel}">
+                <view:AddRoutePointView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddTransportRouteViewModel}">
+                <view:AddTransportRouteView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchViewModel}">
+                <view:SearchView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchDriverViewModel}">
+                <view:SearchDriverView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchDriverByFullNameViewModel}">
+                <view:SearchDriverByFullNameView/>
+            </DataTemplate>
+
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchDriverByPhoneViewModel}">
+                <view:SearchDriverByPhoneView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchTransportViewModel}">
+                <view:SearchTransportView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchTransportByDriverViewModel}">
+                <view:SearchTransportByDriverView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchTransportByTransportNumberViewModel}">
+                <view:SearchTransportByTransportNumberView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchRouteViewModel}">
+                <view:SearchRouteView/>
+            </DataTemplate>
+
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SearchBusStopRoutesViewModel}">
+                <view:SearchBusStopRoutesView/>
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>

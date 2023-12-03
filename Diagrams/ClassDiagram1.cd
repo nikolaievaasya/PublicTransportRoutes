@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PublicTransportRoutes.View.AddBusStopView" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddBusStopView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.AddBusStopViewModel">
+    <Position X="0.5" Y="2" Width="2" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="8.549" />
+        <Point X="1.5" Y="8.549" />
+        <Point X="1.5" Y="4.713" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAAEAAAAAAAQAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>ViewModel\AddBusStopViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.View.AddDriverView" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddDriverView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.AddDriverViewModel">
+    <Position X="2.75" Y="2" Width="2" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="8.553" />
+        <Point X="3.75" Y="8.553" />
+        <Point X="3.75" Y="5.098" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAABIAAAAAAAAAAAAEIAAQABA=</HashCode>
+      <FileName>ViewModel\AddDriverViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.View.AddRoutePointView" Collapsed="true">
+    <Position X="5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddRoutePointView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.AddRoutePointViewModel">
+    <Position X="5" Y="2" Width="2" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="8.486" />
+        <Point X="6" Y="8.486" />
+        <Point X="6" Y="6.252" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BQAAgAAAAAAIAAAACAAAAAAAQCAAAAAoAAAEAAAhAAA=</HashCode>
+      <FileName>ViewModel\AddRoutePointViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.View.AddRouteView" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddRouteView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.AddRouteViewModel">
+    <Position X="7.25" Y="2" Width="2" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="8.553" />
+        <Point X="8.25" Y="8.553" />
+        <Point X="8.25" Y="4.713" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAEAAAAAAAgAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ViewModel\AddRouteViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.View.AddTransportRouteView" Collapsed="true">
+    <Position X="11.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddTransportRouteView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.AddTransportRouteViewModel" Collapsed="true">
+    <Position X="11.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAEEiBADCgAIgAhQggQIAAIEAIggABJAQSAAAABAQYA=</HashCode>
+      <FileName>ViewModel\AddTransportRouteViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.View.AddTransportView" Collapsed="true">
+    <Position X="9.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddTransportView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.AddTransportViewModel">
+    <Position X="9.5" Y="2" Width="2" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="8.564" />
+        <Point X="10.5" Y="8.564" />
+        <Point X="10.5" Y="6.636" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AABQhAQQEAIAAAAACAAAAAAAQAAAAAAAQgAEAAAJAAA=</HashCode>
+      <FileName>ViewModel\AddTransportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.Core.ViewModel">
+    <Position X="12.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAoAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.Core.ObservableObject">
+    <Position X="14.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ObservableObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchBusStopRoutesView" Collapsed="true">
+    <Position X="13.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchBusStopRoutesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchDriverByFullNameView" Collapsed="true">
+    <Position X="15.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchDriverByFullNameView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchDriverByPhoneView" Collapsed="true">
+    <Position X="17.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchDriverByPhoneView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchRouteView" Collapsed="true">
+    <Position X="19" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchRouteView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchTransportByDriverView" Collapsed="true">
+    <Position X="20.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchTransportByDriverView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchTransportByTransportNumberView" Collapsed="true">
+    <Position X="22.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchTransportByTransportNumberView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchBusStopRoutesViewModel">
+    <Position X="13.75" Y="7" Width="1.5" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="11.926" />
+        <Point X="14.5" Y="11.926" />
+        <Point X="14.5" Y="10.482" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAAACAAAACABAAAAABAAAAAgAAAAIAAAIAAA=</HashCode>
+      <FileName>ViewModel\SearchBusStopRoutesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchDriverByFullNameViewModel">
+    <Position X="15.5" Y="7" Width="1.5" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="11.913" />
+        <Point X="16.25" Y="11.913" />
+        <Point X="16.25" Y="10.098" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gEAAACAEAAAAAIAAAAAAAAIABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\SearchDriverByFullNameViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchDriverByPhoneViewModel">
+    <Position X="17.25" Y="7" Width="1.5" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="11.941" />
+        <Point X="18" Y="11.941" />
+        <Point X="18" Y="10.098" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gEAABAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAABA=</HashCode>
+      <FileName>ViewModel\SearchDriverByPhoneViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchRouteViewModel">
+    <Position X="19" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAQAAAACAQAAgAQEAAoAAABAgAAAAAAIBCAAAAA=</HashCode>
+      <FileName>ViewModel\SearchRouteViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.RouteSearch">
+    <Position X="19" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAgAAgAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\SearchRouteViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchTransportByDriverViewModel">
+    <Position X="20.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEiACgAYAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\SearchTransportByDriverViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchTransportByTransportNumberViewModel">
+    <Position X="22.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAEAAAiAAAAAAAAAAAAAAAAAQAQAAAACAAAAA=</HashCode>
+      <FileName>ViewModel\SearchTransportByTransportNumberViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchView" Collapsed="true">
+    <Position X="17.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchTransportView" Collapsed="true">
+    <Position X="19" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchTransportView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.SearchDriverView" Collapsed="true">
+    <Position X="20.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SearchDriverView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.View.AddView" Collapsed="true">
+    <Position X="22.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.AddViewModel">
+    <Position X="22.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJgAAAAAAAAAAAAAAAFCAAKAgQAAAAACAAQAAAAA=</HashCode>
+      <FileName>ViewModel\AddViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchViewModel">
+    <Position X="17.25" Y="17.25" Width="1.5" />
+    <InheritanceLine Type="PublicTransportRoutes.Core.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="22.5" />
+        <Point X="13.25" Y="22.111" />
+        <Point X="18" Y="22.111" />
+        <Point X="18" Y="20.54" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAACAiAAAAAAAAABAAAAAAAAAEAAQAAAAABA=</HashCode>
+      <FileName>ViewModel\SearchViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchTransportViewModel">
+    <Position X="19" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAABAAAAACAAAAACAAAAAKAAAAAAA=</HashCode>
+      <FileName>ViewModel\SearchTransportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicTransportRoutes.ViewModel.SearchDriverViewModel">
+    <Position X="20.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAACAAAAAggAAAAEAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>ViewModel\SearchDriverViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

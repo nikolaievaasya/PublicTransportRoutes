@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "07e23079-f473-4cce-8130-a5e133ddcc66",
+    "IdDriver": "965a1538-816f-4d4a-b977-4e2c69aa0534",
+    "Type": "Bus",
+    "NumberOfSeats": 25,
+    "TransportNumber": "BA9485BP"
+  },
+  {
+    "Id": "e8f8ae7a-8eaf-43b5-9da1-cbd0346a6741",
+    "IdDriver": "98e68123-6cb6-457a-a9f5-2cb064727938",
+    "Type": "Bus",
+    "NumberOfSeats": 20,
+    "TransportNumber": "BC9348AC"
+  }
+]

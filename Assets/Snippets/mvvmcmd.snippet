@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<Header>
+		<Title>mvvmcmd</Title>
+		<Author>AlexanderPismennyi</Author>
+		<Shortcut>mvvmcmd</Shortcut>
+		<Description>Insert default Relay Command structure</Description>
+		<SnippetTypes>
+			<SnippetType>Expansion</SnippetType>
+		</SnippetTypes>
+	</Header>
+	<Snippet>
+		<Declarations>
+			<Literal>
+				<ID>privateCommandName</ID>
+				<Default>privateCommandName</Default>
+			</Literal>			
+			<Literal>
+				<ID>publicCommandName</ID>
+				<Default>publicCommandName</Default>
+			</Literal>
+		</Declarations>
+		<Code Language="CSharp">
+			<![CDATA[
+			private RelayCommand $privateCommandName$;
+			public RelayCommand $publicCommandName$
+			{
+				get
+				{
+					return $privateCommandName$ ?? ($privateCommandName$ = new RelayCommand(obj =>
+					{
+
+						$end$
+
+					}, obj => true));
+				}
+			}
+			]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>

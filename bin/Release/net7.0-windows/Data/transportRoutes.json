@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "a90f40e6-fbbc-4480-8ea1-42b9234f72eb",
+    "IdTransport": "07e23079-f473-4cce-8130-a5e133ddcc66",
+    "IdRoute": "6fc3873f-5173-42b7-aaeb-d60c20b74ed0",
+    "Weekday": null,
+    "StartTime": "07:30:00",
+    "EndTime": "20:30:00"
+  },
+  {
+    "Id": "61f38d92-c143-4fe0-b2d7-7da5aba4e5d2",
+    "IdTransport": "e8f8ae7a-8eaf-43b5-9da1-cbd0346a6741",
+    "IdRoute": "626d4544-aff9-49f2-87e2-bb9dc9aea6f4",
+    "Weekday": null,
+    "StartTime": "07:15:00",
+    "EndTime": "20:45:00"
+  }
+]

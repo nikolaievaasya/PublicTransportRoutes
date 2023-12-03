@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<Header>
+		<Title>mvvmbp</Title>
+		<Author>AlexanderPismennyi</Author>
+		<Shortcut>mvvmbp</Shortcut>
+		<Description>Insert default construction for variable with OnPropertyChanged method</Description>
+		<SnippetTypes>
+			<SnippetType>Expansion</SnippetType>
+		</SnippetTypes>
+	</Header>
+	<Snippet>
+		<Declarations>
+			<Literal>
+				<ID>type</ID>
+				<Default>type</Default>
+			</Literal>
+			<Literal>
+				<ID>privateName</ID>
+				<Default>privateName</Default>
+			</Literal>
+			<Literal>
+				<ID>publicName</ID>
+				<Default>publicName</Default>
+			</Literal>
+		</Declarations>
+		<Code Language="CSharp">
+			<![CDATA[
+			private $type$ $privateName$;
+			public $type$ $publicName$
+			{
+				get { return $privateName$; }
+				set {
+					$privateName$ = value;
+					OnPropertyChanged(nameof($publicName$));
+				}
+			}
+		]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>

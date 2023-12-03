@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<Header>
+		<Title>pblgt</Title>
+		<Author>AlexanderPismennyi</Author>
+		<Shortcut>pblgt</Shortcut>
+		<Description>Default construction with private var and public get</Description>
+		<SnippetTypes>
+			<SnippetType>Expansion</SnippetType>
+		</SnippetTypes>
+	</Header>
+	<Snippet>
+		<Declarations>
+			<Literal>
+				<ID>type</ID>
+				<Default>type</Default>
+			</Literal>
+			<Literal>
+				<ID>privateName</ID>
+				<Default>privateName</Default>
+			</Literal>			
+			<Literal>
+				<ID>publicName</ID>
+				<Default>publicName</Default>
+			</Literal>
+		</Declarations>
+		<Code Language="CSharp">
+			<![CDATA[
+			private $type$ $privateName$;
+			public $type$ $publicName$ => $privateName$;
+			]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>
